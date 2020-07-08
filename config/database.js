@@ -10,9 +10,9 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', 'svkarowdb'),
         username: env('DATABASE_USERNAME', ''),
         password: env('DATABASE_PASSWORD', ''),
+        uri: env('DATABASE_URI'),
       },
       options: {
-        authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
         ssl: env.bool('DATABASE_SSL', false),
       },
     },
