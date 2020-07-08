@@ -1,0 +1,35 @@
+{
+  "name": "api-sv-karow-96-de",
+  "private": true,
+  "version": "0.1.0",
+  "description": "SV Karow 96 - backend system",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.5",
+    "strapi-admin": "3.0.5",
+    "strapi-utils": "3.0.5",
+    "strapi-plugin-content-type-builder": "3.0.5",
+    "strapi-plugin-content-manager": "3.0.5",
+    "strapi-plugin-users-permissions": "3.0.5",
+    "strapi-plugin-email": "3.0.5",
+    "strapi-plugin-upload": "3.0.5",
+    "strapi-connector-mongoose": "3.0.5"
+  },
+  "author": {
+    "name": "Shawn Leske"
+  },
+  "strapi": {
+    "uuid": "cc8a42b0-dbf3-4ba9-9e67-83e41d1e218e"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
