@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/funktionaeres",
+      "handler": "funktionaere.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/funktionaeres/count",
+      "handler": "funktionaere.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/funktionaeres/:id",
+      "handler": "funktionaere.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/funktionaeres",
+      "handler": "funktionaere.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/funktionaeres/:id",
+      "handler": "funktionaere.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/funktionaeres/:id",
+      "handler": "funktionaere.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

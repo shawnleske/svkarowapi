@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "name": "Team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Foto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Trainers": {
+      "collection": "trainer",
+      "via": "Team"
+    },
+    "Trainingszeiten": {
+      "type": "json",
+      "required": true
+    },
+    "Torschuetzen": {
+      "type": "json",
+      "required": false
+    },
+    "WidgetHTML": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

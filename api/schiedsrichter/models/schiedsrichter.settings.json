@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schiedsrichters",
+  "info": {
+    "name": "Schiedsrichter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Foto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Alter": {
+      "type": "integer",
+      "required": true,
+      "max": 99
+    },
+    "Info": {
+      "type": "text"
+    }
+  }
+}

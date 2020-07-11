@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trainers",
+  "info": {
+    "name": "Trainer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Sorte": {
+      "type": "enumeration",
+      "enum": [
+        "Trainer",
+        "Assistenztrainer",
+        "Betreuer"
+      ],
+      "required": true
+    },
+    "Foto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Email": {
+      "type": "email",
+      "required": false
+    },
+    "Tel": {
+      "type": "string"
+    },
+    "Team": {
+      "via": "Trainers",
+      "model": "team"
+    }
+  }
+}

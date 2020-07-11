@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/schiedsrichters",
+      "handler": "schiedsrichter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schiedsrichters/count",
+      "handler": "schiedsrichter.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schiedsrichters/:id",
+      "handler": "schiedsrichter.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/schiedsrichters",
+      "handler": "schiedsrichter.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/schiedsrichters/:id",
+      "handler": "schiedsrichter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/schiedsrichters/:id",
+      "handler": "schiedsrichter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
