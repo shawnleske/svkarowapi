@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produkt_suches",
+  "info": {
+    "name": "ProduktSuche"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "required": true
+    },
+    "Beschreibung": {
+      "type": "text",
+      "required": true
+    },
+    "Tel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
