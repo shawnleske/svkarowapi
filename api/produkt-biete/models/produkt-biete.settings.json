@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produkt_bietes",
+  "info": {
+    "name": "ProduktBiete"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "required": true
+    },
+    "Bilder": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Tel": {
+      "type": "string",
+      "required": true
+    },
+    "Preis": {
+      "type": "decimal",
+      "required": true
+    },
+    "Info": {
+      "type": "text"
+    }
+  }
+}

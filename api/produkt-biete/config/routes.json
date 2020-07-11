@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/produkt-bietes",
+      "handler": "produkt-biete.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/produkt-bietes/count",
+      "handler": "produkt-biete.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/produkt-bietes/:id",
+      "handler": "produkt-biete.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/produkt-bietes",
+      "handler": "produkt-biete.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/produkt-bietes/:id",
+      "handler": "produkt-biete.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/produkt-bietes/:id",
+      "handler": "produkt-biete.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
