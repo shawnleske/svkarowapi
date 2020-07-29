@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "sponsorens",
+  "collectionName": "sponsors",
   "info": {
-    "name": "Sponsoren"
+    "name": "Sponsor"
   },
   "options": {
     "increments": true,
@@ -13,9 +13,7 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": true
