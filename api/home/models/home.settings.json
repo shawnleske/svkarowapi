@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Begruessungstext": {
+      "type": "text",
+      "required": true
+    },
+    "Spielertext": {
+      "type": "text"
+    },
+    "Trainertext": {
+      "type": "text"
+    },
+    "Schiedsrichtertext": {
+      "type": "text"
+    },
+    "Sponsorentext": {
+      "type": "text"
+    },
+    "NewsAnzeige": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "NewsAnzahl": {
+      "required": true,
+      "min": 2,
+      "max": 20,
+      "type": "integer"
+    }
+  }
+}
