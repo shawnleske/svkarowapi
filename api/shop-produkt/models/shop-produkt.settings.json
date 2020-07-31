@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_produkts",
+  "info": {
+    "name": "ShopProdukt"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "required": true
+    },
+    "Bilder": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Preis": {
+      "type": "decimal",
+      "required": true
+    },
+    "Info": {
+      "type": "text"
+    }
+  }
+}
