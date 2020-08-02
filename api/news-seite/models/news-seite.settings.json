@@ -12,6 +12,14 @@
     "AnzahlNewsProSeite": {
       "type": "integer",
       "required": true
+    },
+    "FacebookToken": {
+      "type": "text",
+      "required": true
+    },
+    "SeitenId": {
+      "type": "text",
+      "required": true
     }
   }
 }
