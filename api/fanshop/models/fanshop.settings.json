@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "fanshops",
+  "info": {
+    "name": "Fanshop"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Info": {
+      "type": "richtext"
+    }
+  }
+}

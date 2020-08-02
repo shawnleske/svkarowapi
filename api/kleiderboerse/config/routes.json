@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kleiderboerse",
+      "handler": "kleiderboerse.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kleiderboerse",
+      "handler": "kleiderboerse.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kleiderboerse",
+      "handler": "kleiderboerse.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

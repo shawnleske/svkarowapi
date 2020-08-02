@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fanshop",
+      "handler": "fanshop.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fanshop",
+      "handler": "fanshop.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fanshop",
+      "handler": "fanshop.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

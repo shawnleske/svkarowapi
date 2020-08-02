@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_seites",
+  "info": {
+    "name": "NewsSeite"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "AnzahlNewsProSeite": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
