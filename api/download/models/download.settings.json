@@ -10,10 +10,27 @@
   },
   "attributes": {
     "Titel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Link": {
-      "type": "text"
+      "type": "text",
+      "required": true
+    },
+    "LokaleDatei": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Typ": {
+      "type": "enumeration",
+      "enum": [
+        "Satzung",
+        "Dokument",
+        "Sonstiges"
+      ],
+      "default": "Dokument",
+      "required": true
     }
   }
 }
