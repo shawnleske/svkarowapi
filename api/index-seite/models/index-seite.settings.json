@@ -11,6 +11,11 @@
   "attributes": {
     "Kontakt": {
       "type": "richtext"
+    },
+    "MapsAnzeigen": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
