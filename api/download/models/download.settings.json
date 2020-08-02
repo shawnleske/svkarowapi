@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "downloads",
+  "info": {
+    "name": "Download"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "text"
+    }
+  }
+}
