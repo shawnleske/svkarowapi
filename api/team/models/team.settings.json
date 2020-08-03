@@ -34,15 +34,14 @@
       "type": "json",
       "required": false
     },
-    "WidgetHTML": {
-      "type": "json",
-      "required": true
-    },
     "index": {
       "type": "integer",
       "min": 1,
       "required": true,
       "default": 1
+    },
+    "WidgetHTML": {
+      "type": "text"
     }
   }
 }
