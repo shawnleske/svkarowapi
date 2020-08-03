@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "galeries",
+  "info": {
+    "name": "Galerie"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Bilder": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
