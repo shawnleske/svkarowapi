@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/geschaeftsstelle",
+      "handler": "geschaeftsstelle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/geschaeftsstelle",
+      "handler": "geschaeftsstelle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/geschaeftsstelle",
+      "handler": "geschaeftsstelle.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
