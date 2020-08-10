@@ -40,8 +40,11 @@
       "required": true,
       "default": 1
     },
-    "WidgetHTML": {
+    "WidgetKey": {
       "type": "text"
+    },
+    "Jahrgang": {
+      "type": "string"
     }
   }
 }
