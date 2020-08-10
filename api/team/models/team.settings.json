@@ -41,7 +41,7 @@
       "default": 1
     },
     "WidgetKey": {
-      "type": "text"
+      "type": "string"
     },
     "Jahrgang": {
       "type": "string"
