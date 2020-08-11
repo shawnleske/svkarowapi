@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/geschichtsabschnitts",
+      "handler": "geschichtsabschnitt.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/geschichtsabschnitts/count",
+      "handler": "geschichtsabschnitt.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/geschichtsabschnitts/:id",
+      "handler": "geschichtsabschnitt.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/geschichtsabschnitts",
+      "handler": "geschichtsabschnitt.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/geschichtsabschnitts/:id",
+      "handler": "geschichtsabschnitt.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/geschichtsabschnitts/:id",
+      "handler": "geschichtsabschnitt.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

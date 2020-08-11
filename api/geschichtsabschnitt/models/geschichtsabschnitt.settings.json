@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "geschichtsabschnitts",
+  "info": {
+    "name": "Geschichtsabschnitt"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Jahr": {
+      "type": "string"
+    },
+    "Inhalt": {
+      "type": "richtext"
+    }
+  }
+}
