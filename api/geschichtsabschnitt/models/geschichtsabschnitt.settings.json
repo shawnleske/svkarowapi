@@ -10,10 +10,12 @@
   },
   "attributes": {
     "Jahr": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Inhalt": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
