@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "datenschutzs",
+  "info": {
+    "name": "Datenschutz"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Verantwortlicher": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
