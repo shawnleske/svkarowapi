@@ -36,6 +36,9 @@
     },
     "Sponsorentext": {
       "type": "richtext"
+    },
+    "Geschichtstext": {
+      "type": "richtext"
     }
   }
 }
